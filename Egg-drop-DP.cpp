@@ -44,11 +44,16 @@ int main()
 	cout.tie(NULL);
 	
 	#ifndef ONLINE_JUDGE
-	freopen("/home/r0b0t/Documents/C++/input.txt","r",stdin);
+	freopen("/home/dinesh_verra/cpp/input.txt","r",stdin);
 	// freopen("/home/r0b0t/Documents/C++/output.txt","w",stdout);
 	#endif
 
-	ll k,n;
-	cin>>k>>n;
-	cout<<egg_drop(k,n)<<'\n';
+	ll t;
+	cin>>t;
+	while(t--)
+	{
+		ll k,n;
+		cin>>k>>n;
+		cout<<egg_drop(k,n)<<'\n';
+	}
 }
